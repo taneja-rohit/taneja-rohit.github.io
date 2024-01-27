@@ -73,8 +73,8 @@ education:
    school: North Carolina State University
 
 
-intro:
-Experienced Product Manager with 15 years in technology, spanning hardware architectures, platform development, and cloud services. <br/><br/> Proven track record at Apple and in startups, including founding one post-undergraduate studies. <br/><br/> Currently a Senior Product Manager in NVIDIA's Enterprise Product Group. Expertise in delivering technology-backed products with a focus on good engineering principles and clean code. <br/><br/> Successful in large-scale enterprise roles across India and the USA, adept at navigating diverse go-to-market motions.
+intro: |
+  Experienced Product Manager with 15 years in technology, spanning hardware architectures, platform development, and cloud services. <br/><br/> Proven track record at Apple and in startups, including founding one post-undergraduate studies. <br/><br/> Currently a Senior Product Manager in NVIDIA's Enterprise Product Group. Expertise in delivering technology-backed products with a focus on good engineering principles and clean code. <br/><br/> Successful in large-scale enterprise roles across India and the USA, adept at navigating diverse go-to-market motions.
 
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
