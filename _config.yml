@@ -73,12 +73,12 @@ education:
    school: North Carolina State University
 
 
-intro: |
+intro:
 Experienced Product Manager with 15 years in technology, spanning hardware architectures, platform development, and cloud services. <br/><br/> Proven track record at Apple and in startups, including founding one post-undergraduate studies. <br/><br/> Currently a Senior Product Manager in NVIDIA's Enterprise Product Group. Expertise in delivering technology-backed products with a focus on good engineering principles and clean code. <br/><br/> Successful in large-scale enterprise roles across India and the USA, adept at navigating diverse go-to-market motions.
 
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
-additionalinfo: |
+additionalinfo:
    <strong>NVIDIA</strong>: As a Senior Product Manager and lead in NVIDIA, I am responsible for tackling issues related to scaling our managed service and resolving data movement challenges for enterprise clients. I drive expansion through partnerships in both startup and enterprise landscapes. I oversee feature development and ensure Agile delivery practices. Additionally, I strategically navigate conferences for product launches and collaborate with partners for seamless integrations. <br/><br/>
    <strong>Apple</strong>:  I led the implementation of 2D ML applications in Apple factories, focusing on local AI. I managed data movement to centralized data management and real-time model inference processing. I successfully led global teams through Day 1 setup and Day 2 operations, growing the team to support ML pipeline operations. My responsibilities included overseeing data and model drift observability, ensuring correctness in the ML pipeline. I played a pivotal role in scaling the product across all Apple products, resulting in over $100 million in savings for Apple manufacturing. I effectively managed a team of product managers, DevOps, and program managers. <br/><br/>
    <strong>IBM</strong>: I established a distributed data processing pipeline using Apache Spark on Hadoop Data Lake. Collaborating with major Cloud Service Providers, I demonstrated the value of IBM solutions for optimal shuffle and sorting performance. Leading a team, I implemented a streaming and batch processing pipeline for enterprise use-cases with Apache Spark. Additionally, I worked closely with research to optimize IBM compute architecture for contemporary workloads such as Spark in-memory processing and deep learning. This effort resulted in awarded patents, and I played a key role in taking IBM's initiatives to US National Laboratories. Through my contributions, I earned eligibility for the Einstein Visa and obtained a Green Card in the Einstein visa category, acknowledging the impact of my work with IBM's engineering and research teams in advancing US technology.  <br/><br/>
