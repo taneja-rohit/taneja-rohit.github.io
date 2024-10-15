@@ -20,39 +20,38 @@ primarylinks:
 
 #Any buzzword skills you want to include
 skills:
- - GenAI / Machine Learning
- - Microservices
- - SaaS and PaaS 
+ - AI Infra Product Management
+ - Negotiation and pricing 
+ - PaaS  
  - Business models 
- - Product management
+ - CLoud native development
  - API design and delivery
- - Technical Platform and Infra Architecture
- - Apache Spark 
+ - Data flows and Architecture
+ - Distributing computing - Apache Spark 
  
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
 #blogfeed: https://developer.nvidia.com/blog/author/rohit-taneja/
 
 #Work experience is required
 roles:
- - title: Senior Product Manager
+ - title: Lead Product Manager
    start: 2021
    end: Ongoing
    employer: NVIDIA
-   description: • Leading DGX Cloud Day 2 problems for scaling workloads and data movement issues for enterprise customers. 
-                • Scale via partnership in startup and enterprise landscape
-                • Feature development, delivery in Agile fashion
-                • Work around conferences for product launches and integrations with partners
- - title: Product Lead
+   description: • DGX Cloud MVP business model for Top-20 customers/Hyperscalar-level pre-training.
+                • Day 2 playbook for data manageibility and partnerships with CSP on ingress/egress and staging.
+                • 1000+ fine-tuning jobs on fine-tuning with DGX Cloud via Hugging Face front-end with pay-as-you-go B2B2B business model. 
+                • Successful internal alignment on standardized API spec for GPU consumption in managed service mode via partners. 
+                • 10+ model and data partners onboarded for NVIDIA Inference microservices (NIM) adoption. 
+ - title: Product Lead, AI/ML Infra 
    start: 2019
    end: 2021
    employer: Apple
-   description: • Responsible for applying 2D ML in Apple factories (local AI)
+   description: • Responsible for applying 2D Deep Learning models in Apple factories for Capex savings and yield improvements of Iphone Line of Business.
                 • Responsible for data movement to centralized data management and real time processing of model inference. 
-                • Responsible for leading teams to success globally for Day 1 setup and Day 2 operations. 
-                • Responsible for growing team to support operations of ML pipeline
-                • Responsible for data and model drift observability and correctness in ML pipeline 
-                • Responsible for scaling the product from single Apple Line of Business to across all Apple products, resulting in 100M+ savings for Apple manufacturing. 
-                • Managed a team of product managers, DevOps and program managers. 
+                • Managed global teams for building and deploying Infra for always-ON inference platform using on-prem and CSP utilities. 
+                • Responsible for building data and model drift observability platform and flows.  
+                • Responsible for scaling the product from single Apple Line of Business to across all Apple products, resulting in $50M+ savings for Apple manufacturing. 
  - title: Senior Performance Engineer
    start: 2013
    end: 2016
@@ -74,12 +73,12 @@ education:
 
 
 intro: |
-  Experienced Product Manager with 15 years in technology, spanning SW optimization for Hardware, platform development, and cloud services. <br/><br/> Proven track record at Apple, IBM and in a startup. <br/><br/> Currently a Senior Product Manager in NVIDIA's Enterprise Product Group. Expertise in delivering technology-backed products with a focus on good engineering principles and clean code. <br/><br/> Successful in large-scale enterprise roles across India and the USA, adept at navigating diverse go-to-market motions.
+  Experienced Product Manager with 15 years in technology and business. <br/><br/> Built product and end-customer solutions that are currently LIVE at Apple, IBM and NVIDIA. <br/><br/> Currently a Lead Product Manager in NVIDIA's Enterprise Product Group. Expertise in delivering technology-backed products with a focus on good engineering principles and clean code. <br/><br/> Successful in large-scale enterprise roles across India and the USA, adept at navigating diverse go-to-market motions.
 
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
-   <strong>NVIDIA</strong>: As a Senior Product Manager and lead in NVIDIA, I am responsible for tackling issues related to scaling our managed service and resolving data movement challenges for enterprise clients. I drive expansion through partnerships in both startup and enterprise landscapes. I oversee feature development and ensure Agile delivery practices. Additionally, I strategically navigate conferences for product launches and collaborate with partners for seamless integrations. <br/><br/>
+   <strong>NVIDIA</strong>: As a Lead Product Manager in NVIDIA, I am responsible for tackling issues related to scaling our managed service and resolving data movement challenges for enterprise clients. I drive expansion through partnerships in both startup and enterprise landscapes. I oversee feature development and ensure Agile delivery practices. Additionally, I strategically navigate conferences for product launches and collaborate with partners for seamless integrations. <br/><br/>
    <strong>Apple</strong>:  I led the implementation of 2D ML applications in Apple factories, focusing on local AI. I managed data movement to centralized data management and real-time model inference processing. I successfully led global teams through Day 1 setup and Day 2 operations, growing the team to support ML pipeline operations. My responsibilities included overseeing data and model drift observability, ensuring correctness in the ML pipeline. I played a pivotal role in scaling the product across all Apple products, resulting in over $100 million in savings for Apple manufacturing. I effectively managed a team of product managers, DevOps, and program managers. <br/><br/>
    <strong>IBM</strong>: I established a distributed data processing pipeline using Apache Spark on Hadoop Data Lake. Collaborating with major Cloud Service Providers, I demonstrated the value of IBM solutions for optimal shuffle and sorting performance. Leading a team, I implemented a streaming and batch processing pipeline for enterprise use-cases with Apache Spark. Additionally, I worked closely with research to optimize IBM compute architecture for contemporary workloads such as Spark in-memory processing and deep learning. This effort resulted in awarded patents, and I played a key role in taking IBM's initiatives to US National Laboratories. Through my contributions, I earned eligibility for the Einstein Visa and obtained a Green Card in the Einstein visa category, acknowledging the impact of my work with IBM's engineering and research teams in advancing US technology.  <br/><br/>
    
