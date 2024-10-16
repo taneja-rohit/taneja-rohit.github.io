@@ -78,20 +78,20 @@ intro: |
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
-   <strong>NVIDIA</strong>: • DGX Cloud MVP business model for Top-20 customers/Hyperscalar-level pre-training.
-                            • Day 2 playbook for data manageibility and partnerships with CSP on ingress/egress and staging.
-                            • 1000+ fine-tuning jobs on fine-tuning with DGX Cloud via Hugging Face front-end with pay-as-you-go B2B2B business model. 
-                            • Successful internal alignment on standardized API spec for GPU consumption in managed service mode via partners. 
+   <strong>NVIDIA</strong>: • DGX Cloud MVP business model for Top-20 customers/Hyperscalar-level pre-training. <br/>
+                            • Day 2 playbook for data manageibility and partnerships with CSP on ingress/egress and staging. <br/>
+                            • 1000+ fine-tuning jobs on fine-tuning with DGX Cloud via Hugging Face front-end with pay-as-you-go B2B2B business model. <br/>
+                            • Successful internal alignment on standardized API spec for GPU consumption in managed service mode via partners. <br/>
                             • 10+ model and data partners onboarded for NVIDIA Inference microservices (NIM) adoption.  <br/><br/>
-   <strong>Apple</strong>:  • Responsible for applying 2D Deep Learning models in Apple factories for Capex savings and yield improvements of Iphone Line of Business.
-                            • Responsible for data movement to centralized data management and real time processing of model inference. 
-                            • Managed global teams for building and deploying Infra for always-ON inference platform using on-prem and CSP utilities. 
-                            • Responsible for building data and model drift observability platform and flows.  
+   <strong>Apple</strong>:  • Responsible for applying 2D Deep Learning models in Apple factories for Capex savings and yield improvements of Iphone Line of Business. <br/>
+                            • Responsible for data movement to centralized data management and real time processing of model inference.  <br/>
+                            • Managed global teams for building and deploying Infra for always-ON inference platform using on-prem and CSP utilities. <br/>
+                            • Responsible for building data and model drift observability platform and flows.  <br/>
                             • Responsible for scaling the product from single Apple Line of Business to across all Apple products, resulting in $50M+ savings for Apple manufacturing.<br/><br/>
-   <strong>IBM</strong>:    • Responsible for setting up distributed data processing pipeline using Apache Spark on Hadoop Data lake
-                            • Responsible for working with Major CSPs to show value of IBM solution for fastest shuffle + sorting performance. 
-                            • Led team to put a streaming and batch processing pipeline for enterprise use-case with Apache Spark. 
-                            • Worked with research to optimize IBM compute architecture for contemporary workloads like Spark in-memory processing and Deep learning workloads. 
-                            • Awarded patents in the process of working with research around distributed processing and helping take IBM's effort to US National Laboratories. 
+   <strong>IBM</strong>:    • Responsible for setting up distributed data processing pipeline using Apache Spark on Hadoop Data lake. <br/>
+                            • Responsible for working with Major CSPs to show value of IBM solution for fastest shuffle + sorting performance. <br/>
+                            • Led team to put a streaming and batch processing pipeline for enterprise use-case with Apache Spark. <br/>
+                            • Worked with research to optimize IBM compute architecture for contemporary workloads like Spark in-memory processing and Deep learning workloads. <br/>
+                            • Awarded patents in the process of working with research around distributed processing and helping take IBM's effort to US National Laboratories. <br/>
                             • Got eligibility for Einstein Visa and got Green Card in Einstein visa category due to work done with IBM engineering and research teams and results delivered to enhance US technology.<br/><br/>
    
