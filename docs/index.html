@@ -5,6 +5,11 @@ layout: default
 <div class="row">
 	<div class="col-md-9 rightBorder">
 		{% include section_intro.html %}
+		{% if site.resume_download_link %}
+		<div class="resume-download">
+			<a href="{{ site.resume_download_link }}" class="btn" download>Download Resume</a>
+		</div>
+		{% endif %}
 		{% include section_skills.html %}
 		{% include section_workexperience.html %}
 		{% include section_additionalinfo.html %}
