@@ -34,20 +34,11 @@ skills:
 
 #Work experience is required
 roles:
- - title: Leadership Development 
+ - title: HBS program 
    start: 2024
    end: 2025 
    employer: Harvard
-   description: Leadership Development Program
- - title: Lead Product Manager
-   start: 2021
-   end: Ongoing
-   employer: NVIDIA
-   description: • DGX Cloud MVP business model for Top-20 customers/Hyperscalar-level pre-training.
-                • Day 2 playbook for data manageibility and partnerships with CSP on ingress/egress and staging.
-                • 1000+ fine-tuning jobs on fine-tuning with DGX Cloud via Hugging Face front-end with pay-as-you-go B2B2B business model. 
-                • Successful internal alignment on standardized API spec for GPU consumption in managed service mode via partners. 
-                • 10+ model and data partners onboarded for NVIDIA Inference microservices (NIM) adoption. 
+   description: Program for Leadership Development at Harvard Business School
  - title: Lead Product Manager
    start: 2021
    end: Ongoing
@@ -87,8 +78,12 @@ education:
 
 
 intro: |
-  Experienced Product Manager with 15 years in technology and business. <br/><br/> Built products and end-customer solutions that are currently LIVE at Apple, IBM and NVIDIA. <br/><br/> Currently a Lead Product Manager in NVIDIA's Enterprise Product Group. Expertise in delivering technology-backed products with a focus on good engineering principles and clean code. <br/><br/> Successful in large-scale enterprise roles across India and the USA, adept at navigating diverse go-to-market motions.
-
+ • Experienced Product Manager with 15 years in technology and business. <br/>
+ • Built products and end-customer solutions that are currently LIVE at Apple, IBM and NVIDIA. <br/>
+ • Currently a Lead Product Manager in NVIDIA's Enterprise Product Group. Expertise in delivering technology-backed products with a focus on good engineering principles and clean code. <br/>
+ • Successful in large-scale enterprise roles across India and the USA, adept at navigating diverse go-to-market motions.
+ • M.S., North Carolina State University | EB1-A Green Card Holder (Einstein Visa)
+ • Incoming Harvard Business School Student, Hybrid Program (December 2024)
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
