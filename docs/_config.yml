@@ -34,6 +34,11 @@ skills:
 
 #Work experience is required
 roles:
+ - title: Leadership Development 
+   start: 2024
+   end: 2025 
+   employer: Harvard
+   description: Leadership Development Program
  - title: Lead Product Manager
    start: 2021
    end: Ongoing
@@ -74,11 +79,6 @@ roles:
 
 #Education is required
 education:
- - level: Program for Executive Leadership Development 
-   date: 2025
-   subject: Leadership 
-   Title: Executive MBA
-   school: Harvard Business School
  - level: M.S., Computer Engineering 
    date: 2011
    subject: Computer Science and Engineering with Research Thesis. 
