@@ -1,16 +1,56 @@
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 	<div class="container">
-		<div class="navbar-header">
-			<a class="navbar-brand" href="#">
-				{{site.title}}
-			</a>
-		</div>
-		<div id="navbar" class="navbar-collapse collapse">
-			<ul class="nav navbar-nav navbar-right">
+		<a class="navbar-brand fw-bold" href="#">
+			<i class="fas fa-rocket me-2"></i>{{site.title}}
+		</a>
+		
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ms-auto">
 				{% for link in site.primarylinks %}
-					<li><a target='_blank' href="{{link.url}}">{{link.title}}</a></li>
+					<li class="nav-item">
+						<a class="nav-link" target='_blank' href="{{link.url}}">
+							{% if link.title == 'Blog' %}
+								<i class="fas fa-blog me-1"></i>
+							{% elsif link.title == 'Google Scholar' %}
+								<i class="fas fa-graduation-cap me-1"></i>
+							{% elsif link.title == 'GitHub' %}
+								<i class="fab fa-github me-1"></i>
+							{% elsif link.title == 'LinkedIn' %}
+								<i class="fab fa-linkedin me-1"></i>
+							{% endif %}
+							{{link.title}}
+						</a>
+					</li>
 				{% endfor %}
 			</ul>
 		</div>
 	</div>
-</nav><br/>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero-section">
+	<div class="container">
+		<div class="row align-items-center min-vh-100">
+			<div class="col-lg-8 col-md-10 mx-auto text-center">
+				<div class="hero-content">
+					<img src="./img/rohit.jpg" alt="Rohit Taneja" class="hero-image mb-4">
+					<h1 class="hero-title display-3 fw-bold mb-3">Rohit Taneja</h1>
+					<h2 class="hero-subtitle h3 text-muted mb-4">Head of Product & AI Infrastructure Leader</h2>
+					<p class="hero-description lead mb-4">15+ years transforming technology into business value at NVIDIA, Apple, and IBM</p>
+					<div class="hero-buttons">
+						<a href="#experience" class="btn btn-primary btn-lg me-3">
+							<i class="fas fa-briefcase me-2"></i>View Experience
+						</a>
+						<a href="{{ site.resume_download_link }}" class="btn btn-outline-primary btn-lg" download>
+							<i class="fas fa-download me-2"></i>Download Resume
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

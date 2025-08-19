@@ -2,21 +2,74 @@
 layout: default
 ---
 
-<div class="row">
-	<div class="col-md-9 rightBorder">
-		{% include section_intro.html %}
-		{% if site.resume_download_link %}
-		<div class="resume-download">
-			<a href="{{ site.resume_download_link }}" class="btn" download>Download Resume</a>
+<!-- Main Content -->
+<main class="main-content">
+	<!-- Introduction Section -->
+	<section id="intro" class="section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					{% include section_intro.html %}
+				</div>
+			</div>
 		</div>
-		{% endif %}
-		{% include section_skills.html %}
-		{% include section_workexperience.html %}
-		{% include section_additionalinfo.html %}
-		{% include section_speakerdeck.html %}
+	</section>
+
+	<!-- Skills Section -->
+	<section id="skills" class="section-padding bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					{% include section_skills.html %}
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Work Experience Section -->
+	<section id="experience" class="section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					{% include section_workexperience.html %}
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Additional Info Section -->
+	<section id="additional" class="section-padding bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					{% include section_additionalinfo.html %}
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Speaker Deck Section -->
+	<section id="speaking" class="section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					{% include section_speakerdeck.html %}
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Sidebar Content (Stacked on mobile) -->
+	<div class="container">
+		<div class="row g-4">
+			<!-- Stack Overflow Section -->
+			<div class="col-lg-6 col-md-6">
+				{% include section_stackoverflow.html %}
+			</div>
+			<!-- Blogs Section -->
+			<div class="col-lg-6 col-md-6">
+				{% include section_blogs.html %}
+			</div>
+		</div>
 	</div>
-	<div class="col-md-3">
-		{% include section_stackoverflow.html %}
-		{% include section_blogs.html %}
-	</div>
-</div>
+</main>

@@ -1,13 +1,25 @@
 {% if site.blogfeed %}
-	<div id="blogBubble" class="rounded_panel txt_lightgrey">
-		<div class="top-rounded-panel grey-bg">
-			<h1>Recent blog posts</h1>
+<div class="blogs-section">
+	<div class="blogs-card">
+		<div class="blogs-header text-center mb-4">
+			<h3 class="section-subtitle">
+				<i class="fas fa-blog text-primary me-2"></i>Latest Insights & Articles
+			</h3>
+			<p class="text-muted">Thought leadership in AI infrastructure and product strategy</p>
 		</div>
-		<div class="content-rounded-panel">
-			<div id="blogArticles">
+		
+		<div class="blogs-content">
+			<div id="blogArticles" class="blog-articles">
+				<!-- Blog articles will be populated by JavaScript -->
 			</div>
-			<br>
+			
+			<div class="text-center mt-4">
+				<a href="https://developer.nvidia.com/blog/author/rohit-taneja/" target="_blank" class="btn btn-outline-primary">
+					<i class="fas fa-external-link-alt me-2"></i>View All Articles
+				</a>
+			</div>
 		</div>
 	</div>
+</div>
 {% endif %}
 
