@@ -5,7 +5,7 @@
 				<div class="experience-header text-center mb-5">
 					<h2 class="section-title">Professional Journey</h2>
 					<div class="title-underline"></div>
-					<p class="text-muted">15+ years of strategic product leadership and technology innovation</p>
+					<p class="text-muted">15+ years of strategic product management and technology innovation</p>
 				</div>
 				
 				<div class="experience-timeline">
@@ -21,9 +21,6 @@
 								<div class="timeline-description">
 									{{role.description}}
 								</div>
-								<button class="btn btn-outline-primary btn-sm mt-3" data-bs-toggle="modal" data-bs-target="#{{role.employer | replace: ' ', '_'}}-{{role.title | replace: ' ', '_'}}">
-									<i class="fas fa-info-circle me-2"></i>View Details
-								</button>
 							</div>
 						</div>
 					{% endfor %}
@@ -40,9 +37,6 @@
 								<div class="timeline-description">
 									{{edu.subject}}
 								</div>
-								<button class="btn btn-outline-primary btn-sm mt-3" data-bs-toggle="modal" data-bs-target="#{{edu.school | replace: '.', '' | replace: ' ', ''}}-{{edu.level | replace: '.', '' | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}">
-									<i class="fas fa-info-circle me-2"></i>View Details
-								</button>
 							</div>
 						</div>
 					{% endfor %}
@@ -51,52 +45,3 @@
 		</div>
 	</div>
 </div>
-
-<!-- Modals -->
-{% for role in site.roles %}
-	<div class="modal fade" id="{{role.employer | replace: ' ', '_'}}-{{role.title | replace: ' ', '_'}}" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h3 class="modal-title">{{role.title}} - {{role.employer}}</h3>
-					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-				</div>
-				<div class="modal-body">
-					<div class="role-details">
-						<div class="role-period mb-3">
-							<i class="fas fa-calendar-alt text-primary me-2"></i>
-							<strong>{{role.start}} - {{role.end}}</strong>
-						</div>
-						<div class="role-description">
-							{{role.description}}
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-{% endfor %}
-
-{% for edu in site.education %}
-	<div class="modal fade" id="{{edu.school | replace: '.', '' | replace: ' ', ''}}-{{edu.level | replace: '.', '' | replace: ' ', '' | replace: '(', '' | replace: ')', ''}}" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h3 class="modal-title">{{edu.level}} - {{edu.school}}</h3>
-					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-				</div>
-				<div class="modal-body">
-					<div class="education-details">
-						<div class="education-period mb-3">
-							<i class="fas fa-calendar-alt text-primary me-2"></i>
-							<strong>{{edu.date}}</strong>
-						</div>
-						<div class="education-subject">
-							{{edu.subject}}
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-{% endfor %}

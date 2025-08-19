@@ -38,7 +38,7 @@ roles:
    start: 2024
    end: 2025 
    employer: Harvard
-   description: Program for Leadership Development at Harvard Business School
+   description: Harvard Business School Executive Education, Hybrid Program
  - title: Lead Product Manager
    start: 2021
    end: Ongoing
@@ -48,7 +48,7 @@ roles:
                 • 1000+ fine-tuning jobs on fine-tuning with DGX Cloud via Hugging Face front-end with pay-as-you-go B2B2B business model. 
                 • Successful internal alignment on standardized API spec for GPU consumption in managed service mode via partners. 
                 • 10+ model and data partners onboarded for NVIDIA Inference microservices (NIM) adoption. 
- - title: Product Lead, AI/ML Infra 
+ - title: Product Lead, AI and ML
    start: 2019
    end: 2021
    employer: Apple
