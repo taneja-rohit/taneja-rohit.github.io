@@ -2,7 +2,7 @@
 title: Rohit Taneja 
 Linkedin: https://www.linkedin.com/in/rohit23taneja
 name: Rohit Taneja
-resume_download_link: /Rohit_Taneja_Technologist_Resume.pdf
+resume_download_link: /Rohit_Taneja_Resume.pdf
 # Build settings
 markdown: kramdown
 
@@ -17,8 +17,6 @@ primarylinks:
    url: https://github.com/taneja-rohit
  - title: LinkedIn
    url: https://www.linkedin.com/in/rohit23taneja
- - title: Pheo Labs
-   url: https://pheo.ai/
 
 # Technical expertise
 skills:
@@ -26,10 +24,9 @@ skills:
  - RAG & DPO Systems
  - Distributed Computing (Spark, Hadoop)
  - Hardware & PCB (2D/2.5D AOI)
- - Cloud & CSP (AWS, GCP, Azure)
- - API Design & Inference
+ - Cloud & Strategy (AWS, GCP, Azure)
  - Patents & Compiler Optimization
- - Product Strategy & Pricing
+ - AI Platform and Infrastructure
 
 # Blogfeed is optional
 # blogfeed: https://developer.nvidia.com/blog/author/rohit-taneja/
@@ -43,7 +40,6 @@ roles:
    description: • Launching July 2026 - Inverting AI pyramid (humans plan; AI executes).
                 • Proprietary multi-policy RAG gateway - 0.717 → 0.95 quality improvement.
                 • Inference-time DPO flywheel generates customer-owned preference pairs.
-                • Runtime drift detection & policy switching (0.827 → 0.934 recovery).
                 • Filed 2022 patent on heterogeneous inference - core to Pheo's local AI thesis.
  - title: HBS Program
    start: 2024
@@ -55,7 +51,7 @@ roles:
    start: 2021
    end: 2026
    employer: NVIDIA
-   description: • DGX Cloud MVP business model for Top-20 hyperscalar customers.
+   description: • DGX Cloud MVP business model for Top-20 hyperscaler customers.
                 • 1000+ fine-tuning jobs via Hugging Face with pay-as-you-go B2B2B model.
                 • 10+ model/data partners onboarded for NVIDIA Inference Microservices (NIM).
                 • Applied 2D/2.5D AOI techniques to AI server PCB quality assurance.
@@ -79,7 +75,7 @@ roles:
    employer: IBM
    description: • Built distributed data pipeline using Apache Spark on Hadoop Data Lake.
                 • Containerized Spark-on-Docker solution for enterprise cloud deployments.
-                • Awarded 3x Eminence & Excellence Awards - secured EB-1A Einstein Visa.
+                • Awarded 3x Eminence & Excellence Awards.
  - title: Engineer
    start: 2013
    end: 2014
@@ -102,7 +98,7 @@ intro: |
  • Ex-NVIDIA, Apple, IBM - built products generating $50M+ in measurable business value. <br/>
  • Patent holder (US 17/920,160 series) - heterogeneous inference across mixed workloads. <br/>
  • HBS Executive MBA '26 | M.S. Computer Engineering, NCSU <br/>
- • EB-1A Green Card Holder (Einstein Visa) <br/>
+ • US Permanent Resident <br/>
 
 # Additional info
 additionalinfo: |
@@ -111,7 +107,7 @@ additionalinfo: |
                             • Runtime drift detection - policy switching recovers 0.827 → 0.934. <br/>
                             • Inference-time DPO flywheel - customer-owned preference pairs for local AI. <br/><br/>
    <strong>NVIDIA (2021-2026)</strong>: <br/>
-                            • DGX Cloud MVP business model for Top-20 hyperscalar customers. <br/>
+                            • DGX Cloud MVP business model for Top-20 hyperscaler customers. <br/>
                             • 1000+ fine-tuning jobs via Hugging Face - pay-as-you-go B2B2B model. <br/>
                             • 10+ model/data partners onboarded for NIM adoption. <br/><br/>
    <strong>Apple (2019-2021)</strong>: <br/>
@@ -120,8 +116,8 @@ additionalinfo: |
    <strong>IBM (2013-2016)</strong>: <br/>
                             • Distributed data pipeline with Apache Spark on Hadoop Data Lake. <br/>
                             • Spark-on-Docker containerization for enterprise cloud deployments. <br/>
-                            • US National Laboratory contributions - EB-1A Einstein Visa awarded. <br/><br/>
+                            • US National Laboratory contributions. <br/><br/>
    <strong>Board & Advisory</strong>: <br/>
-                            • Available for board roles, fractional CTO/CrO positions. <br/>
+                            • Available for board roles, fractional CTO/CPO positions. <br/>
                             • AI hardware consulting @ $400/hour (PCB, Blackwell/Rubin sourcing). <br/>
                             • Harvard Business School Alumni Angels - active member. <br/>

@@ -1,19 +1,17 @@
 body {
-	background: url('../img/gray_jean.png');
+	background: #f5f6fa;
 	padding-top: 40px;
 	color: rgb(24, 24, 24);
+	font-family: 'Segoe UI', 'Source Sans Pro', Helvetica, Arial, sans-serif;
 }
-
 html, body {
 	height: 100%;
-	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 	font-size:16px;
 }
 table {
-	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	font-family: 'Segoe UI', 'Source Sans Pro', Helvetica, Arial, sans-serif;
 	font-size:16px;
 }
-
 .overlay {
   display:none;
   position:absolute;
@@ -25,26 +23,22 @@ table {
 .uppercase{
 	text-transform: uppercase;
 }
-
 .text-justify{
 	text-align:justify;
 	text-justify:inter-word;
 }
 .text-center{
-	text-align:center
+	text-align:center;
 }
-
 #masthead {
 	height:50px;
 	min-width: 1000px;
 }
-
 #header_controls {
 	bottom: 0;
 	display:inline;
 	position:relative;
 }
-
 .header_logo {
 	width:auto;
 	text-align: left;
@@ -54,62 +48,45 @@ table {
 	position:relative;
 	left:0px;top:20px;
 }
-
-
 #header_container {
-	/**background-color:#1E3D5A;**/
-	background: #fff url('../images/txtDarkBground.png');
-
+	background: #fff;
 }
-
 #inner_div {
 	display:inline;
-
 }
-
 #container {
 	margin:0 auto;
 	min-width: 1000px;
-	/*max-width:1000px;*/
 	min-height: 100%;
 	margin-bottom: -30px;
 	position: relative;
 }
-
 #left_col {
 	width: 250px;
 	float: left;
 }
-
-
 #page_content {
 	margin-left: 250px;
 	margin-right: 20px;
 }
-
-
 #footer {
 	clear: both;
 	height: 35px;
 	position: relative;
 	margin:0 auto;
 	min-width: 1000px;
-	/*max-width:1000px;*/
-	color:white;
+	color:#6b7280;
 	font-size:small;
 	text-align:center;
 	padding-top:5px;
 }
-
 #footer_container{
-	background: #262626; /*url('../images/txtDarkBground.png');*/
+	background: #f5f6fa;
 }
-
 .clearfooter {
 	height: 30px;
 	clear: both;
 }
-
 .rounded_menu {
 	padding-left:10px;
 	padding-right:10px;
@@ -130,7 +107,7 @@ table {
     border-top-right-radius: 5px;
 }
 .top-rounded-panel h1{
-	color: #ff3500;
+	color: #16162a;
 	font-weight: 300;
 	padding-top: 15px;
 }
@@ -146,12 +123,9 @@ table {
 	padding-bottom:10px;
 	margin-bottom:10px;
 }
-
 .box_width_med{
 	max-width:70px;
 }
-
-
 .column_menu {
 	margin-left:5px;
 	margin-right:5px;
@@ -159,115 +133,94 @@ table {
 	margin-bottom:5px;
 	font-size:9px;
 }
-
 .light_grey {
-	background-color:#ececec;
+	background-color:#e5e7eb;
 }
-
 .secondary_blocks{
-	background-color:#e6e6e6;
+	background-color:#e5e7eb;
 }
-
 .login_menu {
 	width: 300px;
 }
-
 .lighter_grey {
-	background-color:#ECEFE6;
+	background-color:#f5f6fa;
 }
-
 .dark_grey {
-	background-color:#C7C7C7;
+	background-color:#d1d5db;
 	color: white;
 }
-
 .medium_blue_faded{
-	background: #ffca40;
+	background: #d1d5db;
 	color: white;
 }
-
 .small_text_white > a{
-	color: #EEF6F9;
+	color: #6b7280;
 	font-weight:900;
 }
 .txt_lightgrey {
 	background-color:white;
 	border-color: #ABABAB;
 	border-bottom-style: solid;
-	border-bottom-width: 0px;
+	border-bottom-width:0px;
 	border-right-style: solid;
-	border-right-width: 0px;
+	border-right-width:0px;
 	margin-bottom:20px;
 }
-
 img {
 	border-style: none;
 }
-
 h1 {
-	color:white;
+	color:#16162a;
 	font-size:20px;
 	margin-bottom:15px;
 	font-weight: 200;
 }
-
-
 h2 {
 	font-size:14px;
-	color:#EC5D35;
+	color:#4a6cf7;
 	font-weight:bold;
 	margin:1px 0;
 }
-
 .nerdScoreHeader{
 	font-size:75px;
 	text-align:center;
 	font-weight: 100;
 	line-height: normal;
-	background-color: #ff6840;
-	color: #ffd873;
+	background-color: #d1d5db;
+	color: #16162a;
 }
-
-
-
 .search-row > td{
-	padding-bottom: 10px;
+	padding-bottom:10px;
 	padding-left:10px;
 	padding-top:10px;
 }
 .search-score{
 	font-size:25px;
 	font-style:bold;
-    color:#ffd873;
+    color:#4a6cf7;
 	text-align:center;
 }
 .small_text{
 	font-size:x-small;
 	font-style:italic;
-    color: #999999;
+    color: #6b7280;
 }
-
 .small_text_white{
 	font-size:x-small;
 	font-style:italic;
     font-weight:bold;
-    color: #ffffff;
+    color: #6b7280;
 }
-
 .text_white{
 	font-size:small;
 	font-style:italic;
     font-weight:bold;
     text-align:center;
-    color: #ffffff;
+    color: #6b7280;
 }
-
-
 .small_text a{
 	text-decoration: none;
 }
-
-
 textarea{
     width:100%;
 }
@@ -280,25 +233,21 @@ textarea{
 .ninetyNinePercent{
 	width:99%;
 }
-
 .activityHighlight{
     font-size: 8px;
     padding: 0 4px;
-    color: white;
+    color: #6b7280;
     font-weight: bold;
     text-transform: uppercase;
     margin-right: 4px;
     display: inline-block;
 }
-
 .activityStatus{
-    background-color: #6A9BC8;
+    background-color: #d1d5db;
 }
-
 .mousePointer{
 	cursor: pointer;
 }
-
 span.headerLeft {
 	position: absolute;
 	left: 0;
@@ -325,10 +274,9 @@ div.headerInline {
 .headerInline ul li a {
 	text-decoration:none;
 }
-
 /** popup styling  **/
 .popupBackground{
- 	display:none;
+  display:none;
  	position:fixed;
  	_position:absolute; /* hack for internet explorer 6*/
  	height:100%;
@@ -340,7 +288,7 @@ div.headerInline {
 	z-index:1;
 }
 .popupWindow{
- 	display:none;
+  display:none;
  	position:fixed;
  	_position:absolute; /* hack for internet explorer 6*/
  	height:310px;
@@ -354,7 +302,7 @@ div.headerInline {
 }
 .popupWindow h1{
  	text-align:left;
- 	color:#6FA5FD;
+ 	color:#4a6cf7;
  	font-size:22px;
  	font-weight:700;
  	border-bottom:1px dotted #D3D3D3;
@@ -364,22 +312,19 @@ div.headerInline {
 .popupWindow a{
  	text-decoration: none;
 }
-
 .popupWindowClose{
 	font-size:14px;
  	line-height:14px;
  	right:6px;
  	top:4px;
  	position:absolute;
- 	color:#6fa5fd;
+ 	color:#4a6cf7;
  	font-weight:700;
  	display:block;
 }
-
 label.error { float: none; color: red; padding-left: .5em; vertical-align: top; }
-
 .sketchit {
-	color:#999999;
+	color:#6b7280;
 	font-weight: normal;
 	font-style: normal;
 	font-size:22px;
@@ -389,18 +334,16 @@ label.error { float: none; color: red; padding-left: .5em; vertical-align: top; 
 	-webkit-box-shadow: 3px 3px 4px #000;
 	box-shadow: 3px 3px 4px #000;
 	/* For IE 8 */
-	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4; Direction=135; Color='#000000')";
 	/* For IE 5.5 - 7 */
 	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
 }
-
 .loginTable {
 	border-collapse:collapse;
 }
 td.loginRow {
 	padding:2px;
 }
-
 .small-padding {
 	padding-bottom: 5px;
 }
@@ -410,7 +353,6 @@ td.loginRow {
 .cta-btn{
 	font-size: 2em;
 }
-
 .github-box {
 	margin-top: 15px;
 }
