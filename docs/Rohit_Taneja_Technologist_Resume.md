@@ -1,5 +1,5 @@
 # ROHIT TANEJA
-**Technologist & Entrepreneur** | Ex-NVIDIA | HBS EMBA '26 | Patent Holder  
+**Ex-NVIDIA | HBS EMBA '26 | Patent Holder**  
 rohit23taneja@gmail.com | +1-919-675-9274 | San Francisco Bay Area  
 [LinkedIn](https://www.linkedin.com/in/rohit23taneja/) | [GitHub](https://github.com/taneja-rohit)
 
