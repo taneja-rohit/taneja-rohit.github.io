@@ -2,12 +2,12 @@
 title: Rohit Taneja 
 Linkedin: https://www.linkedin.com/in/rohit23taneja
 name: Rohit Taneja
-resume_download_link: /Rohit-Taneja-resume.pdf
+resume_download_link: /Rohit_Taneja_Technologist_Resume.pdf
 # Build settings
 markdown: kramdown
 
-#User specific content
-#Links that will appear in the navbar
+# User specific content
+# Links that will appear in the navbar
 primarylinks:
  - title: Blog
    url: https://developer.nvidia.com/blog/author/rohit-taneja/
@@ -17,58 +17,77 @@ primarylinks:
    url: https://github.com/taneja-rohit
  - title: LinkedIn
    url: https://www.linkedin.com/in/rohit23taneja
+ - title: Pheo Labs
+   url: https://pheo.ai/
 
-#Any buzzword skills you want to include
+# Technical expertise
 skills:
- - AI Infra Product Management
- - Negotiation and pricing 
- - PaaS  
- - Business models 
- - CLoud native development
- - API design and delivery
- - Data flows and Architecture
- - Distributing computing - Apache Spark 
- 
-#Blogfeed is optional - including this will add JS to call the feed and populate blog list
-#blogfeed: https://developer.nvidia.com/blog/author/rohit-taneja/
+ - AI/ML Infrastructure
+ - RAG & DPO Systems
+ - Distributed Computing (Spark, Hadoop)
+ - Hardware & PCB (2D/2.5D AOI)
+ - Cloud & CSP (AWS, GCP, Azure)
+ - API Design & Inference
+ - Patents & Compiler Optimization
+ - Product Strategy & Pricing
 
-#Work experience is required
+# Blogfeed is optional
+# blogfeed: https://developer.nvidia.com/blog/author/rohit-taneja/
+
+# Work experience
 roles:
- - title: HBS program 
+ - title: Co-Founder & CEO
+   start: 2026
+   end: Present
+   employer: Pheo Labs (People Helping Each Other)
+   description: • Launching July 2026 - Inverting AI pyramid (humans plan; AI executes).
+                • Proprietary multi-policy RAG gateway - 0.717 → 0.95 quality improvement.
+                • Inference-time DPO flywheel generates customer-owned preference pairs.
+                • Runtime drift detection & policy switching (0.827 → 0.934 recovery).
+                • Filed 2022 patent on heterogeneous inference - core to Pheo's local AI thesis.
+ - title: HBS Program
    start: 2024
-   end: 2025 
-   employer: Harvard
-   description: Harvard Business School Executive Education, Hybrid Program
+   end: 2026
+   employer: Harvard Business School
+   description: • Executive MBA - focusing on AI platform economics and venture building.
+                • Capstone - Pheo Labs (multi-policy RAG with DPO flywheel).
  - title: Lead Product Manager
    start: 2021
-   end: Ongoing
+   end: 2026
    employer: NVIDIA
-   description: • DGX Cloud MVP business model for Top-20 customers/Hyperscalar-level pre-training.
-                • Day 2 playbook for data manageibility and partnerships with CSP on ingress/egress and staging.
-                • 1000+ fine-tuning jobs on fine-tuning with DGX Cloud via Hugging Face front-end with pay-as-you-go B2B2B business model. 
-                • Successful internal alignment on standardized API spec for GPU consumption in managed service mode via partners. 
-                • 10+ model and data partners onboarded for NVIDIA Inference microservices (NIM) adoption. 
- - title: Product Lead, AI and ML
+   description: • DGX Cloud MVP business model for Top-20 hyperscalar customers.
+                • 1000+ fine-tuning jobs via Hugging Face with pay-as-you-go B2B2B model.
+                • 10+ model/data partners onboarded for NVIDIA Inference Microservices (NIM).
+                • Applied 2D/2.5D AOI techniques to AI server PCB quality assurance.
+ - title: Product Lead, AI/ML Infra
    start: 2019
    end: 2021
    employer: Apple
-   description: • Responsible for applying 2D Deep Learning models in Apple factories for Capex savings and yield improvements of Iphone Line of Business.
-                • Responsible for data movement to centralized data management and real time processing of model inference. 
-                • Managed global teams for building and deploying Infra for always-ON inference platform using on-prem and CSP utilities. 
-                • Responsible for building data and model drift observability platform and flows.  
-                • Responsible for scaling the product from single Apple Line of Business to across all Apple products, resulting in $50M+ savings for Apple manufacturing. 
+   description: • Applied 2D Deep Learning models in Apple factories - $50M+ CapEx savings.
+                • Built real-time inference platform using on-prem and CSP utilities.
+                • Scaled from single LOB to all Apple products - yield improvements for iPhone.
+ - title: Senior Solutions Architect
+   start: 2016
+   end: 2019
+   employer: NVIDIA
+   description: • ML/DL Infrastructure - GPU-accelerated solutions for training and inference.
+                • Solutions Architecture - optimized GPU deployments across AWS, GCP, Azure.
+                • Compiler & Performance - LLVM optimizations for Maxwell, Pascal, Volta architectures.
  - title: Senior Engineer
    start: 2013
    end: 2016
    employer: IBM
-   description: • Responsible for setting up distributed data processing pipeline using Apache Spark on Hadoop Data lake
-                • Responsible for working with Major CSPs to show value of IBM solution for fastest shuffle + sorting performance. 
-                • Led team to put a streaming and batch processing pipeline for enterprise use-case with Apache Spark. 
-                • Worked with research to optimize IBM compute architecture for contemporary workloads like Spark in-memory processing and Deep learning workloads. 
-                • Awarded patents in the process of working with research around distributed processing and helping take IBM's effort to US National Laboratories. 
-                • Got eligibility for Einstein Visa and got Green Card in Einstein visa category due to work done with IBM engineering and research teams and results delivered to enhance US technology. 
+   description: • Built distributed data pipeline using Apache Spark on Hadoop Data Lake.
+                • Containerized Spark-on-Docker solution for enterprise cloud deployments.
+                • Awarded 3x Eminence & Excellence Awards - secured EB-1A Einstein Visa.
+ - title: Engineer
+   start: 2013
+   end: 2014
+   employer: Qualcomm
+   description: • Compiler analysis and optimization for LLVM backend - ARM-based SoC performance.
+                • Worked on autonomous driving sensor fusion and control systems (early stage).
 
-#Education is required
+# Education
 education:
  - level: M.S., Computer Engg 
    date: 2011
@@ -76,34 +95,33 @@ education:
    Title: Research Assistant in NSF funded embedded computing lab
    school: North Carolina State University
 
-
+# Intro section
 intro: |
- • Experienced Product Manager with 15 years in technology and business. <br/>
- • Built products and end-customer solutions that are currently LIVE at Apple, IBM and NVIDIA. <br/>
- • Currently a Lead Product Manager in NVIDIA's Enterprise Product Group. Expertise in delivering technology-backed products with a focus on good engineering principles and clean code. <br/>
- • Successful in large-scale enterprise roles across India and the USA, adept at navigating diverse go-to-market motions. <br/>
- • M.S., North Carolina State University | EB1-A Green Card Holder (Einstein Visa) <br/>
- • Harvard Business School Executive Education, Hybrid Program (Commencing December 2024) <br/>
+ • Technologist & Entrepreneur with 15+ years in AI infrastructure and enterprise systems. <br/>
+ • Co-Founding Pheo Labs (launching July 2026) - inverting the AI pyramid. <br/>
+ • Ex-NVIDIA, Apple, IBM - built products generating $50M+ in measurable business value. <br/>
+ • Patent holder (US 17/920,160 series) - heterogeneous inference across mixed workloads. <br/>
+ • HBS Executive MBA '26 | M.S. Computer Engineering, NCSU <br/>
+ • EB-1A Green Card Holder (Einstein Visa) <br/>
 
-#An additional info freetext section is optional at the bottom of the page - can be text or HTML
+# Additional info
 additionalinfo: |
-   <strong>NVIDIA</strong>: <br/>
-                            • DGX Cloud MVP business model for Top-20 customers/Hyperscalar-level pre-training. <br/>
-                            • Day 2 playbook for data manageibility and partnerships with CSP on ingress/egress and staging. <br/>
-                            • 1000+ fine-tuning jobs on fine-tuning with DGX Cloud via Hugging Face front-end with pay-as-you-go B2B2B business model. <br/>
-                            • Successful internal alignment on standardized API spec for GPU consumption in managed service mode via partners. <br/>
-                            • 10+ model and data partners onboarded for NVIDIA Inference microservices (NIM) adoption.  <br/><br/>
-   <strong>Apple</strong>:  <br/>
-                            • Responsible for applying 2D Deep Learning models in Apple factories for Capex savings and yield improvements of Iphone Line of Business. <br/>
-                            • Responsible for data movement to centralized data management and real time processing of model inference.  <br/>
-                            • Managed global teams for building and deploying Infra for always-ON inference platform using on-prem and CSP utilities. <br/>
-                            • Responsible for building data and model drift observability platform and flows.  <br/>
-                            • Responsible for scaling the product from single Apple Line of Business to across all Apple products, resulting in $50M+ savings for Apple manufacturing.<br/><br/>
-   <strong>IBM</strong>:    <br/>
-                            • Responsible for setting up distributed data processing pipeline using Apache Spark on Hadoop Data lake. <br/>
-                            • Responsible for working with Major CSPs to show value of IBM solution for fastest shuffle + sorting performance. <br/>
-                            • Led team to put a streaming and batch processing pipeline for enterprise use-case with Apache Spark. <br/>
-                            • Worked with research to optimize IBM compute architecture for contemporary workloads like Spark in-memory processing and Deep learning workloads. <br/>
-                            • Awarded patents in the process of working with research around distributed processing and helping take IBM's effort to US National Laboratories. <br/>
-                            • Got eligibility for Einstein Visa and got Green Card in Einstein visa category due to work done with IBM engineering and research teams and results delivered to enhance US technology.<br/><br/>
-   
+   <strong>Pheo Labs (2026)</strong>: <br/>
+                            • Multi-policy RAG gateway with structured onboarding (0.717 → 0.95 quality). <br/>
+                            • Runtime drift detection - policy switching recovers 0.827 → 0.934. <br/>
+                            • Inference-time DPO flywheel - customer-owned preference pairs for local AI. <br/><br/>
+   <strong>NVIDIA (2021-2026)</strong>: <br/>
+                            • DGX Cloud MVP business model for Top-20 hyperscalar customers. <br/>
+                            • 1000+ fine-tuning jobs via Hugging Face - pay-as-you-go B2B2B model. <br/>
+                            • 10+ model/data partners onboarded for NIM adoption. <br/><br/>
+   <strong>Apple (2019-2021)</strong>: <br/>
+                            • 2D Deep Learning models in Apple factories - $50M+ CapEx savings. <br/>
+                            • Real-time inference platform on-prem and CSP - scaled to all Apple products. <br/><br/>
+   <strong>IBM (2013-2016)</strong>: <br/>
+                            • Distributed data pipeline with Apache Spark on Hadoop Data Lake. <br/>
+                            • Spark-on-Docker containerization for enterprise cloud deployments. <br/>
+                            • US National Laboratory contributions - EB-1A Einstein Visa awarded. <br/><br/>
+   <strong>Board & Advisory</strong>: <br/>
+                            • Available for board roles, fractional CTO/CrO positions. <br/>
+                            • AI hardware consulting @ $400/hour (PCB, Blackwell/Rubin sourcing). <br/>
+                            • Harvard Business School Alumni Angels - active member. <br/>
