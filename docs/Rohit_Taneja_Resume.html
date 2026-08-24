@@ -9,7 +9,7 @@
   body { font-family: 'Source Sans Pro', 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6; color: #1a1a2e; background: #f5f6fa; padding: 40px 0; }
   .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 40px 50px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
   h1 { font-size: 24px; font-weight: 700; color: #16162a; margin-bottom: 4px; }
-  .subtitle { font-size: 16px; color: #4a6cf7; font-weight: 600; margin-bottom: 16px; }
+  .subtitle { font-size: 15px; color: #4a6cf7; font-weight: 600; margin-bottom: 16px; }
   .contact { font-size: 13px; color: #6b7280; margin-bottom: 24px; }
   .contact a { color: #4a6cf7; text-decoration: none; }
   hr { border: none; border-top: 2px solid #4a6cf7; margin: 24px 0; }
@@ -17,14 +17,15 @@
   h3 { font-size: 15px; font-weight: 600; color: #1a1a2e; margin: 12px 0 4px; }
   .company { font-size: 14px; color: #4a6cf7; font-weight: 500; }
   .period { font-size: 12px; color: #6b7280; margin-bottom: 8px; }
+  .role-desc { font-size: 13px; font-style: italic; color: #374151; margin-bottom: 6px; }
   ul { padding-left: 20px; margin-bottom: 12px; }
   li { margin-bottom: 4px; }
   .section { margin-bottom: 20px; }
-  .skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 12px; }
-  .skill-category { background: #f9fafb; padding: 12px 16px; border-radius: 6px; }
-  .skill-category h4 { font-size: 13px; color: #4a6cf7; margin-bottom: 8px; }
-  .skill-tag { display: inline-block; background: #eef1fb; color: #2d2d4a; padding: 3px 8px; border-radius: 3px; font-size: 12px; margin: 2px 4px 2px 0; }
-  .patent { font-size: 13px; margin-bottom: 6px; }
+  .summary { font-size: 14px; color: #1f2937; margin-bottom: 4px; }
+  .skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 20px; margin-top: 12px; }
+  .skill-category h4 { font-size: 12px; color: #4a6cf7; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.03em; }
+  .skill-category p { font-size: 13px; color: #374151; }
+  .earlier { font-size: 12.5px; color: #6b7280; margin-top: 8px; }
   @media print {
     body { background: #fff; padding: 0; }
     .container { box-shadow: none; padding: 20px; }
@@ -34,171 +35,97 @@
 <body>
 <div class="container">
   <h1>ROHIT TANEJA</h1>
-  <div class="subtitle">Ex-NVIDIA | HBS EMBA '26 | Patent Holder</div>
+  <div class="subtitle">AI Compute Infrastructure Leader | Ex-NVIDIA, Apple | 15+ Years Scaling GPU &amp; ML Platforms</div>
   <div class="contact">
-    rohit23taneja@gmail.com | +1-919-675-9274 | San Francisco Bay Area<br>
-    <a href="https://www.linkedin.com/in/rohit23taneja/">LinkedIn</a> | 
-    <a href="https://github.com/taneja-rohit">GitHub</a> | 
-    EB-1A Green Card Holder | US Permanent Resident
+    rohit23taneja@gmail.com | +1-919-675-9274 | San Francisco Bay Area | US Permanent Resident<br>
+    <a href="https://www.linkedin.com/in/rohit23taneja/">LinkedIn</a> |
+    <a href="https://github.com/taneja-rohit">GitHub</a> |
+    <a href="https://scholar.google.com/citations?user=CrxLWLwAAAAJ&hl=en">Google Scholar</a>
   </div>
 
   <hr>
 
   <div class="section">
-    <h2>CURRENT VENTURE</h2>
-    <h3>Co-Founder & CEO | Pheo Labs (People Helping Each Other)</h3>
-    <div class="company">January 2026 – Present | Boston, MA / San Francisco, CA</div>
-    <div class="period">Launching July 2026: Inverting the AI pyramid — humans set strategic goals, AI agents execute tactically.</div>
-    <ul>
-      <li>Developed proprietary <strong>multi-policy RAG gateway</strong> with structured onboarding: improved quality from <strong>0.717 → 0.95</strong> on real customer traffic</li>
-      <li>Engineered <strong>inference-time DPO flywheel</strong>: generates customer-owned preference pairs during serving, enabling local model fine-tuning without retraining</li>
-      <li>Designed <strong>runtime drift detection & policy switching</strong>: empirically demonstrated recovery from <strong>0.827 → 0.934</strong> when single policies degrade</li>
-      <li>Filed <strong>2022 patent (US 17/920,160)</strong>: Heterogeneous inference handling across mixed workloads and hardware — anticipates 2026's local AI trend</li>
-      <li>HBS EMBA capstone: Built MVP with co-founder; targeting professionals and developer teams for local AI deployment</li>
-    </ul>
+    <h2>SUMMARY</h2>
+    <p class="summary">15+ years building and scaling the compute infrastructure behind AI/ML systems, from GPU-accelerated architecture design through cloud-scale serving platforms to hardware integration on the factory floor. Led NVIDIA's DGX Cloud MVP from concept to a production GPU compute service used by top-20 hyperscalers, and built the real-time inference infrastructure behind Apple's global manufacturing operations. Comfortable operating across software, hardware, and cross-functional execution in ambiguous, fast-moving environments where the path forward isn't already defined.</p>
   </div>
-
-  <hr>
 
   <div class="section">
     <h2>PROFESSIONAL EXPERIENCE</h2>
-    
-    <h3>Lead Product Manager – AI Infrastructure | NVIDIA</h3>
-    <div class="company">September 2021 – Present (Transitioning to Fractional/Board Role) | Santa Clara, CA</div>
+
+    <h3>Co-Founder &amp; CTO | Pheo Labs</h3>
+    <div class="company">May 2026 – Present | San Francisco, CA</div>
+    <div class="role-desc">Building an inference-time control plane for agentic AI systems.</div>
     <ul>
-      <li>DGX Cloud & NIM: Defined MVP business model for <strong>Top-20 hyperscaler customers</strong>; established pay-as-you-go B2B2B model via Hugging Face front-end</li>
-      <li>Scaled to <strong>1,000+ fine-tuning jobs</strong> on DGX Cloud; standardized API spec for GPU consumption in managed service mode</li>
-      <li>Partnered with Cloudera, AWS, GCP for <strong>Day-2 playbook</strong>: data manageability, ingress/egress, and staging workflows</li>
-      <li>Onboarded <strong>10+ model and data partners</strong> for NIM adoption; contributed to TensorRT-LLM optimization for Meta Llama 3 (405B)</li>
-      <li>Applied <strong>2D/2.5D AOI techniques</strong> to PCB quality assurance for AI servers (26-40 layer boards)</li>
+      <li>Designed and shipped a multi-policy gateway that routes and evaluates production traffic across competing serving policies, with runtime drift detection that automatically recovers quality when a single policy degrades</li>
+      <li>Operating full-stack: infrastructure, serving logic, and evaluation, using the same execution model as a small compute/infra team shipping under ambiguity</li>
     </ul>
 
-    <h3>Product Lead – ML Infrastructure | Apple</h3>
+    <h3>Vice President, AI/ML Software | Lemurian Labs</h3>
+    <div class="company">January 2026 – May 2026 | San Francisco, CA</div>
+    <div class="role-desc">Led AI/ML serving architecture and infrastructure for heterogeneous compute fleets.</div>
+    <ul>
+      <li>Designed AI/ML serving architecture spanning compiler through accelerator integration for heterogeneous hardware fleets</li>
+      <li>Built a multi-tenant serving engine with workload isolation and scheduling controls for shared compute infrastructure</li>
+    </ul>
+
+    <h3>Lead Product Manager, AI Infrastructure | NVIDIA</h3>
+    <div class="company">September 2021 – December 2025 | Santa Clara, CA</div>
+    <div class="role-desc">Owned DGX Cloud and NVIDIA Inference Microservices (NIM), NVIDIA's managed GPU compute and inference platform.</div>
+    <ul>
+      <li>Took <strong>DGX Cloud from MVP to production</strong>, defining the compute delivery and business model for <strong>top-20 hyperscaler customers</strong></li>
+      <li>Scaled the platform to <strong>1,000+ fine-tuning jobs</strong>, standardizing the API spec for GPU consumption in managed-service mode and building the pay-as-you-go B2B2B integration with Hugging Face</li>
+      <li>Partnered directly with <strong>AWS, GCP, and Cloudera</strong> on Day-2 operations: data manageability, ingress/egress, and staging workflows for GPU fleets running at hyperscaler scale</li>
+      <li>Onboarded <strong>10+ model and data partners</strong> onto NIM; contributed to TensorRT-LLM optimization work for Meta Llama 3 (405B)</li>
+      <li>Applied automated optical inspection (AOI) techniques to <strong>AI server PCB quality assurance</strong> (26–40 layer boards), adding direct hardware and manufacturing exposure to the systems GPU fleets run on</li>
+      <li>Built a data- and model-drift observability platform for always-on inference serving; hold a patent on workload characterization and heterogeneous fit for auto-routing across NVIDIA GPU fleets</li>
+    </ul>
+
+    <h3>Lead, ML Infrastructure | Apple</h3>
     <div class="company">October 2019 – September 2021 | Cupertino, CA</div>
+    <div class="role-desc">Built the real-time inference infrastructure for Apple's global manufacturing operations.</div>
     <ul>
-      <li>Deployed <strong>2D Deep Learning models</strong> in Apple factories; achieved <strong>$50M+ CapEx savings</strong> and yield improvements for iPhone Line of Business</li>
-      <li>Built <strong>real-time inference platform</strong> using on-prem and CSP utilities; scaled from single LOB to all Apple products</li>
-      <li>Designed <strong>centralized data management</strong> pipeline with Spark streaming for model inference and drift detection</li>
-      <li>Led global teams for <strong>always-ON infra</strong> deployment across manufacturing sites in India and China</li>
+      <li>Deployed deep learning inference at manufacturing scale, achieving <strong>$50M+ in measurable CapEx savings</strong> and yield improvements on the iPhone line</li>
+      <li>Built a <strong>real-time inference platform spanning on-prem and cloud (CSP) infrastructure</strong>, scaling from a single line of business to all Apple hardware products</li>
+      <li>Designed a centralized data pipeline (Spark streaming) for continuous inference and drift detection</li>
+      <li>Led global infrastructure delivery for always-on deployments across manufacturing sites in <strong>India and China</strong>, covering operating and reliability at physical-facility scale, not just software</li>
     </ul>
 
-    <h3>Senior Solutions Architect → Senior Engineer | NVIDIA</h3>
+    <h3>Senior Solutions Architect | NVIDIA</h3>
     <div class="company">April 2016 – September 2019 | Santa Clara, CA</div>
     <ul>
-      <li><strong>ML/DL Infrastructure</strong>: Designed GPU-accelerated solutions for training and inference across multiple frameworks</li>
-      <li><strong>Solutions Architecture</strong>: Partnered with CSPs (AWS, GCP, Azure) for optimized GPU instance deployments</li>
-      <li><strong>Compiler & Performance</strong>: Analyzed workload characteristics for Maxwell, Pascal, Volta architectures; contributed to LLVM optimizations</li>
+      <li>Designed <strong>GPU-accelerated infrastructure</strong> for training and inference workloads across multiple ML frameworks</li>
+      <li>Partnered with AWS, GCP, and Azure to optimize GPU instance deployments for enterprise customers</li>
+      <li>Analyzed workload characteristics and contributed LLVM compiler optimizations across three GPU architecture generations (Maxwell, Pascal, Volta)</li>
     </ul>
 
-    <h3>Server Platform Performance Engineer – Big Data | IBM</h3>
-    <div class="company">October 2014 – October 2016 | Armonk, NY</div>
+    <h3>Server Platform Performance Engineer, Big Data | IBM</h3>
+    <div class="company">October 2014 – October 2016 | Austin, TX</div>
     <ul>
-      <li>Built <strong>distributed data processing pipeline</strong> using Apache Spark on Hadoop Data Lake; optimized shuffle/sort performance</li>
-      <li>Containerized <strong>Spark-on-Docker</strong> solution; designed server/cloud deployment for enterprise workloads</li>
-      <li>Collaborated with IBM Research to optimize <strong>compute architecture</strong> for Spark in-memory processing and Deep Learning</li>
-      <li>Awarded <strong>3x Eminence & Excellence Awards</strong>; secured <strong>EB-1A Einstein Visa</strong> for US National Laboratory contributions</li>
+      <li>Built a <strong>distributed data processing pipeline</strong> on Apache Spark over a Hadoop data lake, optimizing shuffle/sort performance at scale</li>
+      <li>Containerized the platform (Spark-on-Docker) for enterprise cloud deployment</li>
+      <li>Awarded <strong>3x Eminence &amp; Excellence Awards</strong> for systems-performance contributions to a US national laboratory</li>
     </ul>
-
-    <h3>Embedded Design Engineer | Qualcomm</h3>
-    <div class="company">May 2013 – September 2014 | San Diego, CA</div>
-    <ul>
-      <li>Compiler analysis and optimization for LLVM backend; contributed to ARM-based SoC performance improvements</li>
-      <li>Worked on <strong>autonomous driving</strong> sensor fusion and control systems (early stage)</li>
-    </ul>
-
-    <h3>Senior Embedded Engineer | Tata Elxsi</h3>
-    <div class="company">March 2009 – June 2011 | Bangalore, India</div>
-    <ul>
-      <li>Designed automotive embedded systems; implemented <strong>sensor integration</strong> for microcontrollers (BeagleBoard, PIC)</li>
-      <li>Developed <strong>LED driver control systems</strong> with DCM/CCM efficiency optimization (basis for MS thesis)</li>
-    </ul>
+    <p class="earlier"><strong>Earlier:</strong> Compiler and embedded systems engineering roles at Qualcomm and Tata Elxsi (2009–2014), including ARM SoC compiler optimization and automotive sensor/control systems.</p>
   </div>
-
-  <hr>
-
-  <div class="section">
-    <h2>EDUCATION</h2>
-    <h3>Harvard Business School | Executive MBA (EMBA)</h3>
-    <div class="company">2024 – June 2026 (Expected) | Boston, MA</div>
-    <div class="period">Capstone: Pheo Labs – Local AI with Inference-Time DPO Flywheel</div>
-    
-    <h3>North Carolina State University | M.S., Computer Engineering</h3>
-    <div class="company">2011 – 2013 | Raleigh, NC</div>
-    <div class="period">Thesis: Energy-Efficient LED Driver Control System – DCM vs. CCM Efficiency Analysis</div>
-    
-    <h3>Maharashtra Institute of Technology | B.Tech., Electronics & Communications</h3>
-    <div class="company">2004 – 2008 | India</div>
-  </div>
-
-  <hr>
-
-  <div class="section">
-    <h2>PATENTS (USPTO)</h2>
-    <div class="patent">1. <strong>US 17/920,160</strong> – <em>Performing Register Promotion Optimizations in Regions Where Memory Aliasing May Occur</em> (Filed 2022)</div>
-    <div class="patent">2. <strong>US 17/920,164</strong> – <em>Processor with Special Store Instruction for Memory Aliasing Regions</em> (Filed 2022)</div>
-    <div class="patent">3. <strong>US 17/920,165</strong> – <em>Compiler Register Promotion in Memory Aliasing Code Regions</em> (Filed 2022)</div>
-    <div class="patent">4. <strong>US 17/920,168</strong> – <em>Processor Detecting Memory Aliasing with Hardware Assurance</em> (Filed 2022)</div>
-    <div class="period" style="margin-top: 8px;"><em>Note: 2022 patent on heterogeneous inference handling across mixed workloads — NVIDIA declined to pursue; now core to Pheo Labs' local AI thesis.</em></div>
-  </div>
-
-  <hr>
 
   <div class="section">
     <h2>TECHNICAL EXPERTISE</h2>
     <div class="skills-grid">
-      <div class="skill-category">
-        <h4>AI/ML Systems</h4>
-        <span class="skill-tag">RAG (Retrieval-Augmented Generation)</span>
-        <span class="skill-tag">DPO (Direct Preference Optimization)</span>
-        <span class="skill-tag">MCTS (Monte Carlo Tree Search)</span>
-        <span class="skill-tag">UCB1 Bandits</span>
-        <span class="skill-tag">TensorRT-LLM</span>
-        <span class="skill-tag">Hugging Face / NIM</span>
-      </div>
-      <div class="skill-category">
-        <h4>Hardware & PCB</h4>
-        <span class="skill-tag">2D/2.5D AOI (Automated Optical Inspection)</span>
-        <span class="skill-tag">High-Layer PCB (26-40+ layers)</span>
-        <span class="skill-tag">Heterogeneous Inference</span>
-        <span class="skill-tag">Memory Aliasing Detection</span>
-        <span class="skill-tag">CUDA / GPU Architectures</span>
-        <span class="skill-tag">Compiler Optimization (LLVM)</span>
-      </div>
-      <div class="skill-category">
-        <h4>Distributed Computing</h4>
-        <span class="skill-tag">Apache Spark</span>
-        <span class="skill-tag">Hadoop Data Lake</span>
-        <span class="skill-tag">In-Memory Processing</span>
-        <span class="skill-tag">Containerization (Docker/K8s)</span>
-        <span class="skill-tag">Deep Learning Workloads</span>
-      </div>
-      <div class="skill-category">
-        <h4>Cloud & Strategy</h4>
-        <span class="skill-tag">AWS, GCP, Azure</span>
-        <span class="skill-tag">DGX Cloud MVP</span>
-        <span class="skill-tag">Serverless Inference</span>
-        <span class="skill-tag">API Design & Pricing</span>
-        <span class="skill-tag">Fractional CTO/CPO</span>
-        <span class="skill-tag">Board & Advisory</span>
-      </div>
+      <div class="skill-category"><h4>Compute Infrastructure</h4><p>GPU fleet architecture, DGX Cloud, NIM, TensorRT-LLM, multi-tenant serving, hyperscaler integration (AWS, GCP, Azure)</p></div>
+      <div class="skill-category"><h4>Distributed Systems</h4><p>Apache Spark, Hadoop, in-memory processing, Docker, Kubernetes</p></div>
+      <div class="skill-category"><h4>Hardware &amp; Manufacturing</h4><p>GPU-accelerated architecture design, AI server PCB quality (AOI), compiler/hardware optimization (LLVM), factory-scale deployment</p></div>
+      <div class="skill-category"><h4>Reliability &amp; Ops</h4><p>Drift detection and observability for always-on inference, Day-2 operations at hyperscaler scale, global infrastructure delivery</p></div>
     </div>
   </div>
 
-  <hr>
-
   <div class="section">
-    <h2>BOARD & ADVISORY (Transitioning to Fractional Roles)</h2>
-    <ul>
-      <li><strong>Available for:</strong> Board roles, fractional CTO/CPO positions, technical advisory in AI infrastructure, PCB/semiconductor strategy, and local AI deployment.</li>
-      <li><strong>Harvard Business School Alumni Angels</strong> – Active member</li>
-      <li><strong>DevNetwork Advisory Board</strong> – Applicant (2026)</li>
-      <li><strong>AI Hardware Consulting</strong> – $400/hour (high-layer-count PCB, Blackwell/Rubin sourcing, NVIDIA strategy)</li>
-    </ul>
+    <h2>EDUCATION</h2>
+    <p><strong>Harvard Business School</strong>, Executive MBA, 2024–2026</p>
+    <p><strong>North Carolina State University</strong>, M.S., Computer Engineering, 2011–2013</p>
   </div>
 
-  <div style="text-align: center; margin-top: 20px; font-size: 12px; color: #6b7280;">
-    References available upon request. EB-1A Green Card Holder. US Permanent Resident.
-  </div>
+  <p style="font-size:12px;color:#9ca3af;margin-top:20px;">References available upon request.</p>
 </div>
 </body>
 </html>
