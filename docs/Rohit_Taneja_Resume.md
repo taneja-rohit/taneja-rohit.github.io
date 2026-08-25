@@ -35,13 +35,10 @@ Led design of AI/ML serving architecture for heterogeneous compute fleets.
 ### **Lead/Staff Member of Enterprise Product Group** | **NVIDIA**
 *September 2021 – December 2025 | Santa Clara, CA*
 
-Owned DGX Cloud and NVIDIA Inference Microservices (NIM), NVIDIA's managed GPU compute and inference platform.
-
 - Founding team for DGX Cloud; took it from MVP to production, defining the isolated compute/storage substrate and data-integration model for **top hyperscalers and frontier labs**
 - Scaled the platform to **1,000+ fine-tuning jobs**, standardizing the GPU-consumption API spec for managed-service mode and building metered-usage billing integration with Hugging Face
 - Partnered directly with **data platforms managing exabytes of data** on Day-2 operations: data manageability, ingress/egress, and staging workflows for GPU fleets running at hyperscaler scale
-- Built a **Mistral-NVIDIA joint model** on CoreWeave infrastructure, leading joint training and data-sampling recipe setup
-- Onboarded **10+ model and data partners** onto NIM; contributed to TensorRT-LLM optimization work for Meta Llama 3 (405B)
+- Built a **Mistral-NVIDIA joint model** on CoreWeave infrastructure, joint training and data-sampling recipe setup
 - Hold a patent on workload characterization and heterogeneous-fit auto-routing across NVIDIA GPU fleets
 
 ---
@@ -53,8 +50,7 @@ Built the real-time inference infrastructure for Apple's global manufacturing op
 
 - Deployed deep learning inference at manufacturing scale, achieving **$50M+ in measurable CapEx savings** and yield improvements on the iPhone line
 - Built a **real-time inference platform spanning on-prem and cloud (CSP) infrastructure**, scaling from a single line of business to all Apple hardware products
-- Designed a centralized data pipeline (Spark streaming) for continuous inference and drift detection
-- Led global infrastructure delivery for always-on deployments across manufacturing sites in **India and China**, covering operating and reliability at physical-facility scale, not just software
+- Global infrastructure delivery for always-on deployments across manufacturing sites in **India and China**, covering operating and reliability at physical-facility scale
 
 ---
 
