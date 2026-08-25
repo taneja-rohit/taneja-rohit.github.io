@@ -7,7 +7,7 @@ rohit23taneja@gmail.com | +1-919-675-9274 | San Francisco Bay Area | US Permanen
 
 ## VISION
 
-I want to solve problems at the intersection of AI governance and the infrastructure that powers the next generation of technology and platforms, with people who treat the mission as the boss and are ready to adapt and change. Excited to wake up every day to problems worth solving.
+The great problems in AI won't be solved by technology alone. They'll be solved by people: the culture, the teams, the structure around the technology. Infrastructure is the foundation. People are the multiplier. Get both right, and magic happens. I want to build that: infrastructure and teams built for a mission, with people who treat the mission as the boss and never stop adapting.
 
 ---
 
