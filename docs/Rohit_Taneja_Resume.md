@@ -1,13 +1,13 @@
 # ROHIT TANEJA
-**AI Compute Infrastructure Leader | Ex-NVIDIA, Apple | 15+ Years Scaling GPU & ML Platforms**  
+**AI Compute Infrastructure | Ex-NVIDIA, Apple | 15+ Years Scaling GPU & ML Platforms**  
 rohit23taneja@gmail.com | +1-919-675-9274 | San Francisco Bay Area | US Permanent Resident  
 [LinkedIn](https://www.linkedin.com/in/rohit23taneja/) | [GitHub](https://github.com/taneja-rohit) | [Google Scholar](https://scholar.google.com/citations?user=CrxLWLwAAAAJ&hl=en)
 
 ---
 
-## SUMMARY
+## VISION
 
-15+ years building and scaling the compute infrastructure behind AI/ML systems, from GPU-accelerated architecture design through cloud-scale serving platforms to hardware integration on the factory floor. Led NVIDIA's DGX Cloud MVP from concept to a production GPU compute service used by top-20 hyperscalers, and built the real-time inference infrastructure behind Apple's global manufacturing operations. Comfortable operating across software, hardware, and cross-functional execution in ambiguous, fast-moving environments where the path forward isn't already defined.
+I want to solve problems at the intersection of AI governance and the infrastructure that powers the next generation of technology and platforms, with people who treat the mission as the boss and are ready to adapt and change. Excited to wake up every day to problems worth solving.
 
 ---
 
@@ -17,18 +17,18 @@ rohit23taneja@gmail.com | +1-919-675-9274 | San Francisco Bay Area | US Permanen
 *May 2026 – Present | San Francisco, CA*
 
 - Completed Harvard Business School Executive MBA (July 2026)
-- Co-authored "**The Digital Apprentice: A Framework for Human-Directed Agentic AI Development**" (with Travis Weber), accepted at the **ACM AI Leadership Summit** (2026); research on balancing human oversight with autonomy in agentic AI systems (arXiv:2606.04321)
-- Building **Pheo Labs**, an inference-time control plane for agentic AI, as a side project: a multi-policy gateway that routes and evaluates production traffic across competing serving policies, with runtime drift detection that automatically recovers quality when a single policy degrades
+- Co-authored "**The Digital Apprentice: A Framework for Human-Directed Agentic AI Development**," accepted at the **ACM AI Leadership Summit** (2026); research on balancing human oversight with autonomy in agentic AI systems (arXiv:2606.04321)
+- Building an inference-time control plane for agentic AI systems: a multi-policy gateway that routes and evaluates production traffic across competing serving policies, with runtime drift detection that automatically recovers quality when a single policy degrades
 
 ---
 
 ### **Vice President, AI/ML Software** | **Lemurian Labs**
 *January 2026 – May 2026 | San Francisco, CA*
 
-Led AI/ML serving architecture and infrastructure for heterogeneous compute fleets.
+Led design of AI/ML serving architecture for heterogeneous compute fleets.
 
-- Designed AI/ML serving architecture spanning compiler through accelerator integration for heterogeneous hardware fleets
-- Built a multi-tenant serving engine with workload isolation and scheduling controls for shared compute infrastructure
+- Designed the AI/ML serving architecture spec spanning compiler through accelerator integration for heterogeneous hardware fleets
+- Designed the multi-tenant serving engine spec, defining workload isolation and scheduling controls for shared compute infrastructure
 
 ---
 
@@ -37,9 +37,10 @@ Led AI/ML serving architecture and infrastructure for heterogeneous compute flee
 
 Owned DGX Cloud and NVIDIA Inference Microservices (NIM), NVIDIA's managed GPU compute and inference platform.
 
-- Took **DGX Cloud from MVP to production**, defining the compute delivery and business model for **top-20 hyperscaler customers**
+- Took **DGX Cloud from MVP to production**, defining the compute delivery and business model for **top hyperscalers and frontier labs**
 - Scaled the platform to **1,000+ fine-tuning jobs**, standardizing the API spec for GPU consumption in managed-service mode and building the pay-as-you-go B2B2B integration with Hugging Face
-- Partnered directly with **AWS, GCP, and Cloudera** on Day-2 operations: data manageability, ingress/egress, and staging workflows for GPU fleets running at hyperscaler scale
+- Partnered directly with **data platforms managing petabytes of data** on Day-2 operations: data manageability, ingress/egress, and staging workflows for GPU fleets running at hyperscaler scale
+- Built a **Mistral-NVIDIA joint model** on CoreWeave infrastructure, leading joint training and data-sampling recipe setup
 - Onboarded **10+ model and data partners** onto NIM; contributed to TensorRT-LLM optimization work for Meta Llama 3 (405B)
 - Applied automated optical inspection (AOI) techniques to **AI server PCB quality assurance** (26–40 layer boards), adding direct hardware and manufacturing exposure to the systems GPU fleets run on
 - Built a data- and model-drift observability platform for always-on inference serving; hold a patent on workload characterization and heterogeneous fit for auto-routing across NVIDIA GPU fleets
@@ -74,8 +75,6 @@ Built the real-time inference infrastructure for Apple's global manufacturing op
 - Containerized the platform (Spark-on-Docker) for enterprise cloud deployment
 - Awarded **3x Eminence & Excellence Awards** for systems-performance contributions to a US national laboratory
 
-**Earlier:** Compiler and embedded systems engineering roles at Qualcomm and Tata Elxsi (2009–2014), including ARM SoC compiler optimization and automotive sensor/control systems.
-
 ---
 
 ## TECHNICAL EXPERTISE
@@ -92,7 +91,3 @@ Built the real-time inference infrastructure for Apple's global manufacturing op
 
 **Harvard Business School**, Executive MBA, 2024–2026 (Completed July 2026)  
 **North Carolina State University**, M.S., Computer Engineering, 2011–2013
-
----
-
-*References available upon request.*
