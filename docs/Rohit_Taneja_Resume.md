@@ -13,13 +13,12 @@ rohit23taneja@gmail.com | +1-919-675-9274 | San Francisco Bay Area | US Permanen
 
 ## PROFESSIONAL EXPERIENCE
 
-### **Co-Founder & CTO** | **Pheo Labs**
+### **Independent Research: Agentic AI Security, Autonomy & Governance**
 *May 2026 – Present | San Francisco, CA*
 
-Building an inference-time control plane for agentic AI systems.
-
-- Designed and shipped a multi-policy gateway that routes and evaluates production traffic across competing serving policies, with runtime drift detection that automatically recovers quality when a single policy degrades
-- Operating full-stack: infrastructure, serving logic, and evaluation, using the same execution model as a small compute/infra team shipping under ambiguity
+- Completed Harvard Business School Executive MBA (July 2026)
+- Co-authored "**The Digital Apprentice: A Framework for Human-Directed Agentic AI Development**" (with Travis Weber), accepted at the **ACM AI Leadership Summit** (2026); research on balancing human oversight with autonomy in agentic AI systems (arXiv:2606.04321)
+- Building **Pheo Labs**, an inference-time control plane for agentic AI, as a side project: a multi-policy gateway that routes and evaluates production traffic across competing serving policies, with runtime drift detection that automatically recovers quality when a single policy degrades
 
 ---
 
@@ -91,7 +90,7 @@ Built the real-time inference infrastructure for Apple's global manufacturing op
 
 ## EDUCATION
 
-**Harvard Business School**, Executive MBA, 2024–2026  
+**Harvard Business School**, Executive MBA, 2024–2026 (Completed July 2026)  
 **North Carolina State University**, M.S., Computer Engineering, 2011–2013
 
 ---
