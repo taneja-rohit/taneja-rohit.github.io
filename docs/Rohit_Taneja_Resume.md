@@ -32,18 +32,17 @@ Led design of AI/ML serving architecture for heterogeneous compute fleets.
 
 ---
 
-### **Lead Product Manager, AI Infrastructure** | **NVIDIA**
+### **Lead/Staff Member of Enterprise Product Group** | **NVIDIA**
 *September 2021 – December 2025 | Santa Clara, CA*
 
 Owned DGX Cloud and NVIDIA Inference Microservices (NIM), NVIDIA's managed GPU compute and inference platform.
 
-- Took **DGX Cloud from MVP to production**, defining the compute delivery and business model for **top hyperscalers and frontier labs**
-- Scaled the platform to **1,000+ fine-tuning jobs**, standardizing the API spec for GPU consumption in managed-service mode and building the pay-as-you-go B2B2B integration with Hugging Face
-- Partnered directly with **data platforms managing petabytes of data** on Day-2 operations: data manageability, ingress/egress, and staging workflows for GPU fleets running at hyperscaler scale
+- Founding team for DGX Cloud; took it from MVP to production, defining the isolated compute/storage substrate and data-integration model for **top hyperscalers and frontier labs**
+- Scaled the platform to **1,000+ fine-tuning jobs**, standardizing the GPU-consumption API spec for managed-service mode and building metered-usage billing integration with Hugging Face
+- Partnered directly with **data platforms managing exabytes of data** on Day-2 operations: data manageability, ingress/egress, and staging workflows for GPU fleets running at hyperscaler scale
 - Built a **Mistral-NVIDIA joint model** on CoreWeave infrastructure, leading joint training and data-sampling recipe setup
 - Onboarded **10+ model and data partners** onto NIM; contributed to TensorRT-LLM optimization work for Meta Llama 3 (405B)
-- Applied automated optical inspection (AOI) techniques to **AI server PCB quality assurance** (26–40 layer boards), adding direct hardware and manufacturing exposure to the systems GPU fleets run on
-- Built a data- and model-drift observability platform for always-on inference serving; hold a patent on workload characterization and heterogeneous fit for auto-routing across NVIDIA GPU fleets
+- Hold a patent on workload characterization and heterogeneous-fit auto-routing across NVIDIA GPU fleets
 
 ---
 
@@ -59,27 +58,18 @@ Built the real-time inference infrastructure for Apple's global manufacturing op
 
 ---
 
-### **Senior Solutions Architect** | **NVIDIA**
-*April 2016 – September 2019 | Santa Clara, CA*
-
-- Designed **GPU-accelerated infrastructure** for training and inference workloads across multiple ML frameworks
-- Partnered with AWS, GCP, and Azure to optimize GPU instance deployments for enterprise customers
-- Analyzed workload characteristics and contributed LLVM compiler optimizations across three GPU architecture generations (Maxwell, Pascal, Volta)
-
----
-
 ### **Server Platform Performance Engineer, Big Data** | **IBM**
 *October 2014 – October 2016 | Austin, TX*
 
 - Built a **distributed data processing pipeline** on Apache Spark over a Hadoop data lake, optimizing shuffle/sort performance at scale
 - Containerized the platform (Spark-on-Docker) for enterprise cloud deployment
-- Awarded **3x Eminence & Excellence Awards** for systems-performance contributions to a US national laboratory
+- Awarded **3x Eminence & Excellence Awards** for systems-performance contributions to National Labs and Enterprise customers
 
 ---
 
 ## TECHNICAL EXPERTISE
 
-**Compute Infrastructure:** GPU fleet architecture, DGX Cloud, NIM, TensorRT-LLM, multi-tenant serving, hyperscaler integration (AWS, GCP, Azure)  
+**Compute Infrastructure:** GPU fleet architecture, DGX Cloud, NIM, multi-tenant serving, hyperscaler integration patterns (AWS, GCP, Azure)  
 **Distributed Systems:** Apache Spark, Hadoop, in-memory processing, Docker, Kubernetes  
 **Hardware & Manufacturing:** GPU-accelerated architecture design, AI server PCB quality (AOI), compiler/hardware optimization (LLVM), factory-scale deployment  
 **Reliability & Ops:** Drift detection and observability for always-on inference, Day-2 operations at hyperscaler scale, global infrastructure delivery  
